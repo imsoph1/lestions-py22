@@ -17,5 +17,15 @@ git commit - как только мы достигаем до определен
 (Фиксация изменение в репо)
 
 git commit -m '<comments>'
+ git remote add - это команда 
+4. git remote add <название полключения> <ссылка на репозицитории>
+git remote add origin <url>
+
+5. git push - после коммита изменений при помощи этой команды  
+
+git push <origin> <название ветки(mainm)>
+
+git push origin main
+
 
 .
