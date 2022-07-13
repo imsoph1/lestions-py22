@@ -27,5 +27,7 @@ git push <origin> <название ветки(mainm)>
 
 git push origin main
 
+.
+
 
 .
