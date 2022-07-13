@@ -1,3 +1,7 @@
+from ast import main
+from mimetypes import init
+
+
 GIT - распределенная система контроля версий 
 Это система для отлеживания ведения истории изменений виших фалов или проекта.
 
@@ -17,17 +21,26 @@ git commit - как только мы достигаем до определен
 (Фиксация изменение в репо)
 
 git commit -m '<comments>'
- git remote add - это команда 
-4. git remote add <название полключения> <ссылка на репозицитории>
+
+git remote add - это команда для того чтобы связать ваш локальный репозиторий с удаленными репозиторием в гитхабе
+
+git remote add <названия подключение> <ссылка на репозиторий> 
+
 git remote add origin <url>
 
-5. git push - после коммита изменений при помощи этой команды  
+5. git push  - после коммита изменений при помощи этой команды мы отправляем наши изменения в файлах на удаленный репозиторий
 
-git push <origin> <название ветки(mainm)>
+git push <origin> <название ветки(main)>
 
 git push origin main
-
-.
-
-
-.
+--------------------------------------------------------------------------
+1. git init
+2. git banch -M (переимыновываем главную ветку с master на main)
+3. git add .
+4. git commit -m 'comment' (все добавлено в лок репр)
+5. git remoti add origin <url>
+6. git push origin main
+/////////////////////////////
+git add .
+git commit -m 'comment'
+git push origin main 
